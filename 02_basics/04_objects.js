@@ -46,3 +46,19 @@ console.log(tinderUser);
 
 console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
+
+
+console.log("NEW LECTURE:");
+
+const course= {
+    courseName: "js yt",
+    price: "99",
+    couseInstructor: "Karthik"
+}
+
+const {couseInstructor} = course
+console.log(couseInstructor);
+
+//Destructuring instead of couseInstructor we can destructe it to instructor
+const{couseInstructor: instructor} = course
+console.log(instructor);
