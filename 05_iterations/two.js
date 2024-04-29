@@ -24,3 +24,4 @@ do{
     console.log(`Marks are ${marks}`);   //11 printed even before checkin condition
     marks++
 } while (marks <= 10);
+
