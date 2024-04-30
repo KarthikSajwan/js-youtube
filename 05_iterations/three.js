@@ -10,5 +10,11 @@ for (const greet of grreetings){
 }
 
 //Maps
+
+
 const map = new Map()
-map.
+map.set('IN', "India")
+map.set('US', "United States of America")
+map.set('IN', "India")// will ignore this only takes unique value
+
+console.log(map);
